@@ -1,0 +1,3 @@
+incdir = include_directories('include', '.')
+libsources = files('src/gtest-all.cc')
+mainsources = files('src/gtest_main.cc')
