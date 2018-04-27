@@ -7,7 +7,7 @@
 #   gtest_mainless_dep -> gtest_dep
 #   gtest_with_main_dep -> gtest_main_dep
 
-gtest_incdir = include_directories('include', '.')
+gtest_incdir = include_directories('include', '.', is_system : true)
 gtest_libsources = files('src/gtest-all.cc')
 gtest_mainsources = files('src/gtest_main.cc')
 
