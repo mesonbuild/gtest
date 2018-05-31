@@ -11,7 +11,7 @@
 # as this mimicks the same behavior as the
 # upstream repo.
 
-gmock_incdir = include_directories('include', '.')
+gmock_incdir = include_directories('include', '.', is_system : true)
 gmock_libsources = files('src/gmock-all.cc')
 gmock_mainsources = files('src/gmock_main.cc')
 
