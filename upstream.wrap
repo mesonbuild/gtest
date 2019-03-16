@@ -1,0 +1,6 @@
+[wrap-file]
+directory = googletest-release-1.8.1
+
+source_url = https://github.com/google/googletest/archive/release-1.8.1.zip
+source_filename = gtest-1.8.1.zip
+source_hash = 927827c183d01734cc5cfef85e0ff3f5a92ffe6188e0d18e909c5efebf28a0c7
